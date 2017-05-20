@@ -4,12 +4,8 @@
   "license": "MIT",
   "scripts": {
     "ng": "ng",    
-    "build": "ng build",
-    "test": "ng test",
-    "lint": "ng lint",
-    "e2e": "ng e2e",
-    "postinstall": "ng build --aot -prod",
-	"start": "node server.js",
+	"start": "node server.js",   
+    "postinstall": "ng build --aot -prod"	
   },
   "engines": {
     "node": "6.10.3",
